@@ -1,3 +1,3 @@
 <?php
 
-require_once "../boostrap.php";
+require_once "../bootstrap.php";
