@@ -3,13 +3,13 @@
 namespace App\Database;
 
 use mysqli;
-
+mysql://:@/heroku_2b3c8f938e792ff?reconnect=true
 class Database
 {
-    private $db_host = "localhost";
-    private $db_user = "softjoe";
-    private $db_pass = "softjoe123";
-    private $db_name = "blog_project";
+    private $db_host = "us-cdbr-east-05.cleardb.net";
+    private $db_user = "heroku_2b3c8f938e792ff";
+    private $db_pass = "bfdecd2f";
+    private $db_name = "b4a22337e0a6e6";
 
     private $conn;
     // protected static $queryResult;
