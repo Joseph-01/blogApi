@@ -6,9 +6,9 @@ use mysqli;
 class Database
 {
     private $db_host = "us-cdbr-east-05.cleardb.net";
-    private $db_user = "heroku_2b3c8f938e792ff";
+    private $db_user = "b4a22337e0a6e6";
     private $db_pass = "bfdecd2f";
-    private $db_name = "b4a22337e0a6e6";
+    private $db_name = "heroku_2b3c8f938e792ff";
 
     private $conn;
     // protected static $queryResult;
