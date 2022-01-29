@@ -3,7 +3,6 @@
 namespace App\Database;
 
 use mysqli;
-mysql://:@/heroku_2b3c8f938e792ff?reconnect=true
 class Database
 {
     private $db_host = "us-cdbr-east-05.cleardb.net";

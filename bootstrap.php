@@ -17,7 +17,12 @@ use App\Model\User;
 use App\Utility\Time;
 
 $app = AppFactory::create();
-$app->setBasePath('/phpfun/api/playground/myAPIs/blogTest/v2/blogApiTest/public');
+
+//basepath for heruko
+$app->setBasePath('/public');
+
+//basepath for local development
+//$app->setBasePath('/phpfun/api/playground/myAPIs/blogTest/v2/blogApiTest/public');
 
 $database = new Database;
 DatabaseObject::setDatabase($database);
